@@ -1,38 +1,166 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #2D3A45;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.company-logo {
+  width: 80px;
+  height: auto;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 36px;
+  margin: 0;
+}
+
+.header nav {
+  margin-top: 20px; /* Add margin to push navigation links down */
+}
+
+.header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1C77C3, #39A0ED);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.cta-button {
+  background-color: #FFD700;
+  color: #2D3A45;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none; /* Ensure no underlining if it's a link */
+}
+
+.cta-button:hover {
+  background-color: #FFC300;
+}
+
+.overview, .features, .cta {
+  padding: 50px 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overview h2, .features h2, .cta h2 {
+  font-size: 36px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.overview p, .features ul {
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.features-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex-basis: 22%;
+  margin: 20px;
+  text-align: center;
+}
+
+.feature-image {
+  width: 100px;
+  height: 100px;
+}
+
+.moving-graphics {
+  padding: 100px 20px;
+  background-color: #1C1C1C;
   color: white;
+  text-align: center;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.animated-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #000000, #2D3A45, #1C77C3, #39A0ED);
+  opacity: 0.2;
+  animation: moveBackground 10s linear infinite;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes moveBackground {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+
+.footer {
+  background-color: #2D3A45;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
 }
