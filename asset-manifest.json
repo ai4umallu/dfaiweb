@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dfaiweb/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/dfaiweb/static/js/main.b162df75.chunk.js",
+    "main.js.map": "/dfaiweb/static/js/main.b162df75.chunk.js.map",
+    "runtime-main.js": "/dfaiweb/static/js/runtime-main.dbde5256.js",
+    "runtime-main.js.map": "/dfaiweb/static/js/runtime-main.dbde5256.js.map",
+    "static/js/2.1bf149b8.chunk.js": "/dfaiweb/static/js/2.1bf149b8.chunk.js",
+    "static/js/2.1bf149b8.chunk.js.map": "/dfaiweb/static/js/2.1bf149b8.chunk.js.map",
+    "static/js/3.2a434533.chunk.js": "/dfaiweb/static/js/3.2a434533.chunk.js",
+    "static/js/3.2a434533.chunk.js.map": "/dfaiweb/static/js/3.2a434533.chunk.js.map",
+    "index.html": "/dfaiweb/index.html",
+    "precache-manifest.d1b655cad782b2fa7f897a1c59dc84dd.js": "/dfaiweb/precache-manifest.d1b655cad782b2fa7f897a1c59dc84dd.js",
+    "service-worker.js": "/dfaiweb/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/dfaiweb/static/css/main.435d5fe5.chunk.css.map",
+    "static/js/2.1bf149b8.chunk.js.LICENSE.txt": "/dfaiweb/static/js/2.1bf149b8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/dfaiweb/static/media/logo.06e73328.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbde5256.js",
+    "static/js/2.1bf149b8.chunk.js",
+    "static/css/main.435d5fe5.chunk.css",
+    "static/js/main.b162df75.chunk.js"
+  ]
+}
