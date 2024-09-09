@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 // Assume you have a way to import or fetch the SVG as a URL
 import svgUrl from '../assets/datafortai_hld.svg';
+import svgIcon from '../assets/df_icon_graphics.svg';
 
 const HeroSection = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -17,6 +18,13 @@ const HeroSection = () => {
 
   return (
     <StyledHeroSection>
+       <div className="hero-animation">
+        <img
+          src={svgIcon}
+          alt="DataFort AI Logo"
+          style={{ maxWidth: '100%', height: 'auto' }}
+        />
+      </div>
       <div className="hero-content">
         <h1>DATAFORT AI</h1>
         <h2>Your Secure AI R&D Platform – On-Prem and Fully Private</h2>
@@ -29,7 +37,7 @@ const HeroSection = () => {
       <div className="hero-animation">
         <img
           src={svgUrl}
-          alt="DataFort AI Logo"
+          alt="DataFort HLD"
           style={{ maxWidth: '100%', height: 'auto' }}
         />
       </div>
