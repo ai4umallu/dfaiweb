@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.d7f8b961.chunk.js",
-    "main.js.map": "/static/js/main.d7f8b961.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b91f3c74.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b91f3c74.js.map",
-    "static/js/2.18c1d741.chunk.js": "/static/js/2.18c1d741.chunk.js",
-    "static/js/2.18c1d741.chunk.js.map": "/static/js/2.18c1d741.chunk.js.map",
-    "static/js/3.359c02c1.chunk.js": "/static/js/3.359c02c1.chunk.js",
-    "static/js/3.359c02c1.chunk.js.map": "/static/js/3.359c02c1.chunk.js.map",
+    "main.js": "/static/js/main.73413c72.chunk.js",
+    "main.js.map": "/static/js/main.73413c72.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ca9ef7b9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ca9ef7b9.js.map",
+    "static/js/2.a0e7655a.chunk.js": "/static/js/2.a0e7655a.chunk.js",
+    "static/js/2.a0e7655a.chunk.js.map": "/static/js/2.a0e7655a.chunk.js.map",
+    "static/js/3.35a354bc.chunk.js": "/static/js/3.35a354bc.chunk.js",
+    "static/js/3.35a354bc.chunk.js.map": "/static/js/3.35a354bc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ce0691cb1e07997eed2cfe913c376784.js": "/precache-manifest.ce0691cb1e07997eed2cfe913c376784.js",
+    "precache-manifest.dd5676f7670d565eea893b05bb2d5088.js": "/precache-manifest.dd5676f7670d565eea893b05bb2d5088.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.18c1d741.chunk.js.LICENSE.txt": "/static/js/2.18c1d741.chunk.js.LICENSE.txt",
+    "static/js/2.a0e7655a.chunk.js.LICENSE.txt": "/static/js/2.a0e7655a.chunk.js.LICENSE.txt",
     "static/media/business-ui.jpg": "/static/media/business-ui.22c96a09.jpg",
     "static/media/containerized.jpg": "/static/media/containerized.11d3287d.jpg",
     "static/media/datafortai_hld.svg": "/static/media/datafortai_hld.c54dd7c0.svg",
+    "static/media/df_icon_graphics.svg": "/static/media/df_icon_graphics.611469fa.svg",
     "static/media/pre-configured.jpg": "/static/media/pre-configured.95d9fcba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b91f3c74.js",
-    "static/js/2.18c1d741.chunk.js",
+    "static/js/runtime-main.ca9ef7b9.js",
+    "static/js/2.a0e7655a.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.d7f8b961.chunk.js"
+    "static/js/main.73413c72.chunk.js"
   ]
 }
