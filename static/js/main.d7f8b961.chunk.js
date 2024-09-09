@@ -1,4 +1,4 @@
-(this.webpackJsonpdfaiweb=this.webpackJsonpdfaiweb||[]).push([[0],[,,,,,,,,function(e,t,a){e.exports=a.p+"static/media/datafortai_hld.6e5fb036.svg"},,,function(e,t,a){e.exports=a.p+"static/media/containerized.ff7f87c1.jpg"},function(e,t,a){e.exports=a.p+"static/media/pre-configured.6950e9bb.jpg"},function(e,t,a){e.exports=a.p+"static/media/business-ui.22c96a09.jpg"},,function(e,t,a){e.exports=a(24)},,,,,,,,function(e,t,a){},function(e,t,a){"use strict";a.r(t);var r=a(0),n=a.n(r),o=a(7),i=a.n(o),l=(a(23),a(2)),s=a(8),m=a.n(s);const c=l.a.section`
+(this.webpackJsonpdfaiweb=this.webpackJsonpdfaiweb||[]).push([[0],[,,,,,,,,function(e,t,a){e.exports=a.p+"static/media/datafortai_hld.c54dd7c0.svg"},,,function(e,t,a){e.exports=a.p+"static/media/containerized.11d3287d.jpg"},function(e,t,a){e.exports=a.p+"static/media/pre-configured.95d9fcba.jpg"},function(e,t,a){e.exports=a.p+"static/media/business-ui.22c96a09.jpg"},,function(e,t,a){e.exports=a(24)},,,,,,,,function(e,t,a){},function(e,t,a){"use strict";a.r(t);var r=a(0),n=a.n(r),o=a(7),i=a.n(o),l=(a(23),a(2)),s=a(8),m=a.n(s);const c=l.a.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,6 +131,7 @@
     }
   }
 `;var E=()=>{const e=[{icon:n.a.createElement(g.d,null),title:"Data Privacy Guaranteed",description:"Keep your sensitive data secure within your own infrastructure."},{icon:n.a.createElement(g.c,null),title:"Quick Setup & Deployment",description:"No complex installations. Fully containerized for hassle-free deployment."},{icon:n.a.createElement(g.b,null),title:"No Vendor Lock-In",description:"Flexibility to move forward with any Python-compatible platform."},{icon:n.a.createElement(g.a,null),title:"OpenAI Compatibility",description:"Seamless integration with OpenAI libraries for quick model switching."}];return n.a.createElement(b,null,n.a.createElement("h2",null,"Why Choose DataFort AI?"),n.a.createElement("div",{className:"benefits-grid"},e.map((e,t)=>n.a.createElement("div",{key:t,className:"benefit-card",style:{animationDelay:.1*t+"s"}},n.a.createElement("div",{className:"icon"},e.icon),n.a.createElement("h3",null,e.title),n.a.createElement("p",null,e.description)))))};const x=l.a.div`
+  text-align: center;
   background: #f9f9f9;
   padding: 4rem 2rem;
   border-radius: 8px;
@@ -308,7 +309,7 @@
       font-weight: normal;
     }
   }
-`;var P=()=>n.a.createElement(S,null,n.a.createElement("h2",null,"What Our Customers Say"),n.a.createElement("div",{className:"testimonials-list"},n.a.createElement("div",{className:"testimonial"},n.a.createElement("p",null,'"DataFort AI allowed us to rapidly prototype and deploy our models in a secure environment, which was crucial for our sensitive data."'),n.a.createElement("h4",null,"- Sharath Ravi, Data Scientist")),n.a.createElement("div",{className:"testimonial"},n.a.createElement("p",null,'"The integration with OpenAI libraries was seamless, and the containerized setup made deployment straightforward."'),n.a.createElement("h4",null,"- Ambrish, AI Engineer")),n.a.createElement("div",{className:"testimonial"},n.a.createElement("p",null,'"DataFort AI\'s private infrastructure solution ensured that our data never left our premises, meeting all our security requirements."'),n.a.createElement("h4",null,"- Jincy Xavier, IT Director"))));const T=l.a.div`
+`;var P=()=>n.a.createElement(S,null,n.a.createElement("h2",null,"What Our Customers Say"),n.a.createElement("div",{className:"testimonials-list"},n.a.createElement("div",{className:"testimonial"},n.a.createElement("p",null,'"DataFort AI allowed us to rapidly prototype and deploy our models in a secure environment, which was crucial for our sensitive data."'),n.a.createElement("h4",null,"- Ambrish, Data Scientist")),n.a.createElement("div",{className:"testimonial"},n.a.createElement("p",null,'"The integration with OpenAI libraries was seamless, and the containerized setup made deployment straightforward."'),n.a.createElement("h4",null,"- Sharath Ravi, AI Engineer")),n.a.createElement("div",{className:"testimonial"},n.a.createElement("p",null,'"DataFort AI\'s private infrastructure solution ensured that our data never left our premises, meeting all our security requirements."'),n.a.createElement("h4",null,"- Jincy Xavier, IT Director"))));const T=l.a.div`
   font-family: 'Poppins', sans-serif;
   color: #333;
   overflow-x: hidden;
@@ -327,4 +328,4 @@
   margin: 0 auto;
   animation: ${j} 0.6s ease-out;
 `;var Y=function(){return n.a.createElement(T,null,n.a.createElement(f,null),n.a.createElement(O,{id:"key-benefits"},n.a.createElement(E,null)),n.a.createElement(O,null,n.a.createElement(y,null)),n.a.createElement(O,null,n.a.createElement(z,null)),n.a.createElement(O,null,n.a.createElement(C,null)),n.a.createElement(O,null,n.a.createElement(P,null)))};var B=e=>{e&&e instanceof Function&&a.e(3).then(a.bind(null,25)).then(t=>{let{getCLS:a,getFID:r,getFCP:n,getLCP:o,getTTFB:i}=t;a(e),r(e),n(e),o(e),i(e)})};i.a.createRoot(document.getElementById("root")).render(n.a.createElement(n.a.StrictMode,null,n.a.createElement(Y,null))),B()}],[[15,1,2]]]);
-//# sourceMappingURL=main.055e1561.chunk.js.map
+//# sourceMappingURL=main.d7f8b961.chunk.js.map
