@@ -1,30 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d4b6f09.chunk.css",
-    "main.js": "/static/js/main.5a2e07e4.chunk.js",
-    "main.js.map": "/static/js/main.5a2e07e4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2ddaf7e3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2ddaf7e3.js.map",
-    "static/js/2.94c8d50e.chunk.js": "/static/js/2.94c8d50e.chunk.js",
-    "static/js/2.94c8d50e.chunk.js.map": "/static/js/2.94c8d50e.chunk.js.map",
-    "static/js/3.7fb8c27b.chunk.js": "/static/js/3.7fb8c27b.chunk.js",
-    "static/js/3.7fb8c27b.chunk.js.map": "/static/js/3.7fb8c27b.chunk.js.map",
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.055e1561.chunk.js",
+    "main.js.map": "/static/js/main.055e1561.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b91f3c74.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b91f3c74.js.map",
+    "static/js/2.18c1d741.chunk.js": "/static/js/2.18c1d741.chunk.js",
+    "static/js/2.18c1d741.chunk.js.map": "/static/js/2.18c1d741.chunk.js.map",
+    "static/js/3.359c02c1.chunk.js": "/static/js/3.359c02c1.chunk.js",
+    "static/js/3.359c02c1.chunk.js.map": "/static/js/3.359c02c1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3d3ae19bca33e4f72656203030a6d6ad.js": "/precache-manifest.3d3ae19bca33e4f72656203030a6d6ad.js",
+    "precache-manifest.35a169bfac6939845cdb68906237f77a.js": "/precache-manifest.35a169bfac6939845cdb68906237f77a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3d4b6f09.chunk.css.map": "/static/css/main.3d4b6f09.chunk.css.map",
-    "static/js/2.94c8d50e.chunk.js.LICENSE.txt": "/static/js/2.94c8d50e.chunk.js.LICENSE.txt",
-    "static/media/business-ui.jpg": "/static/media/business-ui.a7bb3ef0.jpg",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.18c1d741.chunk.js.LICENSE.txt": "/static/js/2.18c1d741.chunk.js.LICENSE.txt",
+    "static/media/business-ui.jpg": "/static/media/business-ui.22c96a09.jpg",
     "static/media/containerized.jpg": "/static/media/containerized.ff7f87c1.jpg",
-    "static/media/dfai_icon.jpg": "/static/media/dfai_icon.243cef13.jpg",
-    "static/media/hero-image.jpg": "/static/media/hero-image.2aff32e5.jpg",
-    "static/media/pre-configured.jpg": "/static/media/pre-configured.6950e9bb.jpg",
-    "static/media/secure-data.jpg": "/static/media/secure-data.616ec336.jpg"
+    "static/media/datafortai_hld.svg": "/static/media/datafortai_hld.6e5fb036.svg",
+    "static/media/pre-configured.jpg": "/static/media/pre-configured.6950e9bb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ddaf7e3.js",
-    "static/js/2.94c8d50e.chunk.js",
-    "static/css/main.3d4b6f09.chunk.css",
-    "static/js/main.5a2e07e4.chunk.js"
+    "static/js/runtime-main.b91f3c74.js",
+    "static/js/2.18c1d741.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.055e1561.chunk.js"
   ]
 }
