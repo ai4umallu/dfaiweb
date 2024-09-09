@@ -1,166 +1,86 @@
 body {
+  margin: 0;
   font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-.header {
-  background-color: #2D3A45;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+h1, h2, h3 {
+  color: #333;
 }
 
-.company-logo {
-  width: 80px;
-  height: auto;
-  margin-right: 15px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.header h1 {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 36px;
-  margin: 0;
-}
-
-.header nav {
-  margin-top: 20px; /* Add margin to push navigation links down */
-}
-
-.header nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-.header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.hero {
+.hero-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(135deg, #1C77C3, #39A0ED);
-  color: white;
-  padding: 100px 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden; /* Ensure no overflow */
+  justify-content: space-between;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f6f9fc 0%, #e9f1f9 100%);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Maintain aspect ratio */
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 0.7;
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
-.hero-content {
-  z-index: 1;
-}
-
-.hero h2 {
-  font-size: 48px;
-  margin: 0;
-}
-
-.hero p {
-  font-size: 24px;
-  margin: 20px 0;
-}
-
-.cta-button {
-  background-color: #FFD700;
-  color: #2D3A45;
-  padding: 15px 30px;
-  border: none;
+.hero-buttons button {
+  padding: 12px 24px;
+  font-size: 1rem;
   border-radius: 5px;
-  font-size: 18px;
+  border: none;
   cursor: pointer;
-  text-decoration: none; /* Ensure no underlining if it's a link */
+  transition: all 0.3s ease;
 }
 
-.cta-button:hover {
-  background-color: #FFC300;
+.hero-buttons .btn-primary {
+  background-color: #3498db;
+  color: #fff;
+  margin-right: 10px;
 }
 
-.overview, .features, .cta {
-  padding: 50px 20px;
-  text-align: center;
+.hero-buttons .btn-primary:hover {
+  background-color: #2980b9;
 }
 
-.overview h2, .features h2, .cta h2 {
-  font-size: 36px;
+.hero-buttons .btn-secondary {
+  background-color: transparent;
+  color: #3498db;
+  border: 2px solid #3498db;
 }
 
-.overview p, .features ul {
-  font-size: 18px;
+.hero-buttons .btn-secondary:hover {
+  background-color: #3498db;
+  color: #fff;
 }
 
-.features-grid {
+.benefits-list, .steps, .use-case-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 40px 0;
   flex-wrap: wrap;
 }
 
-.feature-item {
-  flex-basis: 22%;
-  margin: 20px;
-  text-align: center;
-}
-
-.feature-image {
-  width: 100px;
-  height: 100px;
-}
-
-.moving-graphics {
-  padding: 100px 20px;
-  background-color: #1C1C1C;
-  color: white;
-  text-align: center;
-  position: relative;
-}
-
-.animated-background {
-  position: absolute;
-  top: 0;
-  left: 0;
+.benefit, .step, .use-case {
   width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to right, #000000, #2D3A45, #1C77C3, #39A0ED);
-  opacity: 0.2;
-  animation: moveBackground 10s linear infinite;
-  z-index: -1;
-}
-
-@keyframes moveBackground {
-  0% { background-position: 0 0; }
-  100% { background-position: 100% 0; }
-}
-
-.footer {
-  background-color: #2D3A45;
-  color: white;
-  text-align: center;
+  max-width: 300px;
+  background-color: #fff;
   padding: 20px;
-  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.testimonials {
+  background-color: #fff;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cta-section {
+  display: none;
 }
